@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-### Problem 4 ###
-print("Problem 4\n")
-
 # Define Crank-Nicolson scheme for initial boundary value problem.
 def pdeCN(a0, b0, D, uLeftBound, uRightBound, uInitial, tStop = 10, dt = 0.25, n = 4):
     a0 *= 1.0
